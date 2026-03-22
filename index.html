@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="./assets/images/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    />
+    <link rel="stylesheet" href="./output.css" />
+
+    <title>Perfume Website</title>
+  </head>
+
+  <body>
+    <header id="navbar" class="bg-bodyColor fixed w-full top-0 left-0 z-50">
+      <nav class="container flex justify-between items-center h-16 sm:h-20">
+        <div class="font-DancingScript text-2xl sm:text-5xl">perfume.</div>
+
+        <div
+          id="nav-menu"
+          class="bg-cardColor absolute top-0 left-[-100%] duration-300 min-h-[80vh] w-full flex items-center justify-center md:static md:min-h-fit md:w-auto md:bg-transparent"
+        >
+          <ul class="flex md:flex-row flex-col items-center gap-8">
+            <li>
+              <a href="#home" class="nav-link active">Home</a>
+            </li>
+            <li>
+              <a href="#home" class="nav-link">Collections</a>
+            </li>
+            <li>
+              <a href="#home" class="nav-link">Popular</a>
+            </li>
+            <li>
+              <a href="#home" class="nav-link">About</a>
+            </li>
+          </ul>
+        </div>
+        <div class="text-xl sm:text-3xl cursor-pointer z-50 md:hidden">
+          <i class="ri-menu-2-line" id="hamburger"></i>
+        </div>
+      </nav>
+    </header>
+
+    <script src="main.js"></script>
+  </body>
+</html>

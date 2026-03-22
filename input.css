@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@theme {
+  --breakpoint-sm: 480px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 976px;
+  --breakpoint-xl: 1400px;
+
+  --color-bodyColor: hsl(300, 100%, 2%);
+  --color-sectionColor: hsl(300, 100%, 5%);
+  --color-cardColor: hsl(300, 100%, 10%);
+  --color-titleColor: hsl(300, 100%, 23%);
+  --color-textColor: hsl(0, 0%, 100%);
+
+  --font-Jost: "Jost", sans-serif;
+  --font-DancingScript: "Dancing Script", cursive;
+}
+
+@utility container {
+  margin-inline: auto;
+  padding-inline: 12px;
+  @media (width >= 768px) {
+    padding-inline: 32px;
+  }
+}
+
+body
+{
+  @apply bg-bodyColor font-Jost text-textColor
+  tracking-wider overflow-x-hidden;
+}
+
+section
+{
+  @apply py-16 md:py-28;
+}
+
+.nav-link
+{
+  @apply text-lg font-bold hover:text-titleColor duration-300;
+
+}
+
+.active {
+  @apply text-titleColor;
+}
