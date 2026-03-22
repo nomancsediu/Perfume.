@@ -4,6 +4,10 @@
 
 A modern perfume landing page built with **HTML**, **Tailwind CSS v4**, and **Vanilla JavaScript**.
 
+## Live Demo
+
+[View on Netlify](https://perfume-celestia.netlify.app/)
+
 ## Features
 
 - Responsive design for all screen sizes
@@ -19,10 +23,8 @@ A modern perfume landing page built with **HTML**, **Tailwind CSS v4**, and **Va
 - Remix Icons
 - Google Fonts
 
-## Live Demo
+<div align="center">
 
-[View on Netlify](https://perfume-celestia.netlify.app/)
+© 2026 — Abdullah Al Noman
 
----
-
-© 2026 Semicolons
+</div>
