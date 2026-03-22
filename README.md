@@ -6,7 +6,11 @@ A modern perfume landing page built with **HTML**, **Tailwind CSS v4**, and **Va
 
 ## Live Demo
 
+<div align="center">
+
 [![Netlify](https://img.shields.io/badge/Live%20Demo-Visit%20Site-blueviolet?style=for-the-badge&logo=netlify)](https://perfume-celestia.netlify.app/)
+
+</div>
 
 ## Features
 
